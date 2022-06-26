@@ -1,0 +1,33 @@
+
+@use 'base/variables' as v;
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+body{
+    background-color:v.$darkBlue ;
+    font-family: v.$font-family;
+    font-size: 1.2rem;
+    color: v.$colorText;
+}
+
+a{
+    list-style: unset;
+    text-decoration: none;
+    color: v.$White;
+    &:hover{
+        cursor: pointer;
+        color: v.$Cyan;
+        
+    }
+}
